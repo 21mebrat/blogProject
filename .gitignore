@@ -1,0 +1,81 @@
+# Node.js
+/node_modules
+backend/node_modules
+client/node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+backend/.env
+client/.env
+
+# Build artifacts
+build/
+dist/
+backend/build/
+client/build/
+backend/dist/
+client/dist/
+
+# Cache files
+.cache/
+*.cache
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+*.idea/
+*.vscode/
+*.swp
+*.sublime-project
+*.sublime-workspace
+
+# Ignore compiled files
+*.out
+*.exe
+*.class
+
+# Git generated files
+*.orig
+
+# Static files
+static/
+backend/static/
+client/static/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Coverage files
+coverage/
+backend/coverage/
+client/coverage/
+
+# CI/CD files
+.nyc_output/
+backend/.nyc_output/
+client/.nyc_output/
+
+# Ignore compiled frontend files
+client/public/
+
+# Ignore all frontend specific lock files
+client/yarn.lock
+client/package-lock.json
+
+# Backend specific lock files
+backend/yarn.lock
+backend/package-lock.json
