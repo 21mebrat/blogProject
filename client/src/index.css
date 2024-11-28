@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.disable{
+    cursor: not-allowed;
+}
+.enable{
+    cursor: pointer;
+}
+input[type='number']{
+    -moz-appearance: textfield;
+}
